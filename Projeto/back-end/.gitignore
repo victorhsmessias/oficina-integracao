@@ -1,0 +1,50 @@
+# Dependencias
+node_modules/
+.pnpm-store/
+
+# Compilacao, cobertura e caches
+dist/
+build/
+coverage/
+.nyc_output/
+*.tsbuildinfo
+.cache/
+.eslintcache
+
+# Codigo gerado
+src/generated/prisma/
+
+# Segredos e configuracoes locais
+.env
+.env.*
+!.env.example
+!.env.integration.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Arquivos temporarios
+tmp/
+temp/
+*.tmp
+*.swp
+*.swo
+
+# Bancos locais
+*.db
+*.db-journal
+
+# Sistema operacional e editores
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Documentacao mantida apenas localmente
+README.md
+docs/
